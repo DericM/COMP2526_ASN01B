@@ -22,12 +22,15 @@ public class AddressBook {
     }
 
     public void addPerson() {
+        database.add(userInterface.readPerson());
     }
 
     public void deletePerson() {
+        database.removeByName(userInterface.readName());
     }
 
     public void findPerson() {
+        
     }
 
     private boolean remove(final String name) {
@@ -39,8 +42,10 @@ public class AddressBook {
     }
 
     public void displayAll() {
+        userInterface.displayAll(database.getAll());
     }
 
     private void display(final Person person) {
+        userInterface.display(person);
     }
 }
