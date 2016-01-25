@@ -26,7 +26,12 @@ public class AddressBook {
     }
 
     public void deletePerson() {
-        database.removeByName(userInterface.readName());
+        try {
+            database.removeByName(userInterface.readName());
+        }
+        catch (Exception e) {
+            ;
+        }
     }
 
     public void findPerson() {
