@@ -21,7 +21,7 @@ public class Person {
 
     /**
      * Returns name as a String.
-     * @return WHAT DOES THIS RETURN?
+     * @return the name.
      */
     public String getName() {
         return (name);
@@ -29,7 +29,7 @@ public class Person {
 
     /**
      * Returns phone number as a String.
-     * @return WHAT DOES THIS RETURN?
+     * @return the phone number.
      */
     public String getPhoneNumber() {
         return (phone);

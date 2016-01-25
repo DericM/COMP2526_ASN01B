@@ -1,6 +1,5 @@
 package ca.bcit.comp2526.a1b;
 
-import java.util.Scanner;
 
 /**
  * Main.

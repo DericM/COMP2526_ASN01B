@@ -51,7 +51,7 @@ public class Database {
      * 
      * @param name
      *            A String.
-     * @return WHAT DOES THIS RETURN?
+     * @return The person that was removed, or null if it wasn't found.
      */
     public Person removeByName(final String name) {
         final Person person;
@@ -73,7 +73,7 @@ public class Database {
      * 
      * @param name
      *            A String
-     * @return WHAT DOES THIS RETURN?
+     * @return The person with the specified name, or null if they are not found.
      */
     public Person findByName(final String name) {
         final Person person;
